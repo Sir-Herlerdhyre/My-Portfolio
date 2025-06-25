@@ -1,0 +1,64 @@
+/* === PORTFOLIO STYLES === */
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px; 
+  transition: transform 0.3s ease;
+}
+
+.project-card a {
+  display: block;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.625rem;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.1);
+}
+
+/* Overlay Details */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  border-radius: 0.625rem;
+}
+
+.project-card:hover .overlay {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.3rem 0;
+  color: var(--main-color);
+}
+
+.overlay span {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--main-color);
+}

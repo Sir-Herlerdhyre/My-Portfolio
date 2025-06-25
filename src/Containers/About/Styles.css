@@ -1,0 +1,62 @@
+/* ABOUT SECTION STYLES */
+
+.about-summary {
+  margin: 1.67rem 0 2.78rem 0.56rem; 
+}
+
+.about-summary-paragraph {
+  color: var(--sub-text-color);
+  margin-left: 1.67rem; 
+  font-size: 1rem;
+  line-height: 1.8;
+  max-width: 50rem;
+}
+
+/* Animation classes */
+.animated-left {
+  animation: slideInFromBottom 3s ease-out forwards;
+  opacity: 0;
+}
+
+.animated-right {
+  animation: slideInFromRight 3s ease-out forwards;
+  opacity: 0;
+  animation-delay: 0.3s;
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* Keyframes for animations */
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+

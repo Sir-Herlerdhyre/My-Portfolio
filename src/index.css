@@ -1,0 +1,48 @@
+/* Root CSS (index.css)
+   This file defines global variables and base styling for consistent theming and responsiveness.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --background-color: rgb(241, 241, 241);
+  --main-color: orangered;
+  --sub-text-color: #181818;
+  --nav-background-color: #181818;
+  --btn-color: #181818;
+}
+
+/* Reset default spacing and use border-box sizing */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* Base font size for scaling with rem */
+html {
+  font-size: 18px; /* 1rem = 18px for scalable units */
+  height: 100%;
+  color: var(--main-color);
+}
+
+/* Body styling */
+body {
+  background-color: var(--background-color);
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Ensure app takes full height */
+#root {
+  height: 100%;
+}
+
+/* Particle canvas background settings */
+#particles canvas {
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}

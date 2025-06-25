@@ -1,0 +1,96 @@
+/* Navbar Styles (Navbar/Styles.css)
+   This file handles the layout and responsiveness of the navigation bar.
+*/
+
+.navbar {
+  background-color: var(--nav-background-color);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  padding: 0 2.5rem;
+  z-index: 1;
+  position: relative;
+}
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar-logo:hover {
+  color: var(--main-color);
+  transform: scale(1.1);
+}
+
+span {
+  color: var(--main-color);
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar-links {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: 0 1.25rem;
+  padding: 0.625rem;
+}
+
+.navbar-links:hover {
+  color: var(--main-color);
+  border-bottom: 0.2rem solid;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 62.5rem) {
+  .navbar-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--nav-background-color);
+    position: absolute;
+    top: 5rem;
+    left: -100%;
+    transition: all 0.5s ease;
+    opacity: 1;
+    z-index: 999;
+  }
+
+  .navbar-menu.active {
+    left: 0;
+  }
+
+  .nav-toggle {
+    display: block;
+    cursor: pointer;
+    color: var(--main-color);
+    padding-right: 1.25rem;
+  }
+
+  .navbar-list {
+    margin: 0.9375rem 0;
+  }
+}
