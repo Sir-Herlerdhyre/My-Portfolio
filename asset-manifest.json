@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.5bed0f2b.css",
-    "main.js": "/My-portfolio/static/js/main.98c88cdf.js",
-    "static/media/Sir-Herlerdhyre.png": "/My-portfolio/static/media/Sir-Herlerdhyre.597869cba5bfc3a358d0.png",
-    "static/media/E-commerce Website.png": "/My-portfolio/static/media/E-commerce Website.a0b7eb8d64d438a07444.png",
-    "static/media/Aladire_Soliu_Frontend_Intern_CV.pdf": "/My-portfolio/static/media/Aladire_Soliu_Frontend_Intern_CV.c9a992a1305cac7c3aa8.pdf",
-    "static/media/Blog Website.png": "/My-portfolio/static/media/Blog Website.3f43bd2c3833cbcda72e.png",
-    "index.html": "/My-portfolio/index.html",
-    "main.5bed0f2b.css.map": "/My-portfolio/static/css/main.5bed0f2b.css.map",
-    "main.98c88cdf.js.map": "/My-portfolio/static/js/main.98c88cdf.js.map"
+    "main.css": "/My-Portfolio/static/css/main.5bed0f2b.css",
+    "main.js": "/My-Portfolio/static/js/main.fcde2683.js",
+    "static/media/Sir-Herlerdhyre.png": "/My-Portfolio/static/media/Sir-Herlerdhyre.597869cba5bfc3a358d0.png",
+    "static/media/E-commerce Website.png": "/My-Portfolio/static/media/E-commerce Website.a0b7eb8d64d438a07444.png",
+    "static/media/Aladire_Soliu_Frontend_Intern_CV.pdf": "/My-Portfolio/static/media/Aladire_Soliu_Frontend_Intern_CV.c9a992a1305cac7c3aa8.pdf",
+    "static/media/Blog Website.png": "/My-Portfolio/static/media/Blog Website.3f43bd2c3833cbcda72e.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.5bed0f2b.css.map": "/My-Portfolio/static/css/main.5bed0f2b.css.map",
+    "main.fcde2683.js.map": "/My-Portfolio/static/js/main.fcde2683.js.map"
   },
   "entrypoints": [
     "static/css/main.5bed0f2b.css",
-    "static/js/main.98c88cdf.js"
+    "static/js/main.fcde2683.js"
   ]
 }
