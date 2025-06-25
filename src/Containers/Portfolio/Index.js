@@ -20,7 +20,7 @@ const projects = [
     title: "React Blog App",
     type: "React",
     image: blogAppImage,
-    link: "https://drive.google.com/drive/folders/1czFulGGxJLuh2AlQqHUlnlJ2v3IwQBXj?usp=drive_link",
+    link: "https://sir-herlerdhyre.github.io/Blog-website/",
   },
 ];
 
