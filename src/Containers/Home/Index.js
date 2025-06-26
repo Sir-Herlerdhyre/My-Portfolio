@@ -21,7 +21,7 @@ const Home = () => {
           </p>
           <div className="home-buttons">
             <a href="/Contact" className="btn hire-btn animated-bottom">Hire Me</a>
-            <a href="/Contact" className="btn hire-btn animated-bottom">Hire Me</a>
+            
             <a href={MyCV} download="Aladire_Soliu_Frontend_Intern_CV.pdf" className="btn resume-btn animated-bottom">
               Download Resume
             </a>
