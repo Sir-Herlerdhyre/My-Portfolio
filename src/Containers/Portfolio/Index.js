@@ -14,7 +14,7 @@ const projects = [
     title: "E-commerce Website",
     type: "Basic",
     image: ecommerceImage,
-    link: "https://sir-herlerdhyre.github.io/ecommerce/",
+    link: "https://sir-herlerdhyre.github.io/E-commerce/",
   },
   {
     title: "React Blog App",
