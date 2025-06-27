@@ -12,7 +12,7 @@ const About = () => {
       <section id="about" className="about">
         {/* Page header component with icon */}
         <PageHeaderContent
-          headerText="About Me 😎😎"
+          headerText="About Me "
           icon={<FaUserCircle size={40} />}
         />
       </section>

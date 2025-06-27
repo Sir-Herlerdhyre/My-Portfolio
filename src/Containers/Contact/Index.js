@@ -11,7 +11,7 @@ const Contact = () => {
     <section id="contact" className="contact">
       {/* Section Header */}
       <PageHeaderContent
-        headerText="Contact Me 😎😎"
+        headerText="Contact Me "
         icon={<FaEnvelope size={40} />}
       />
 

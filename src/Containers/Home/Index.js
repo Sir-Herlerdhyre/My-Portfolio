@@ -5,8 +5,15 @@ import React from "react";
 import './Styles.css';
 import Logo from './Images/Sir-Herlerdhyre.png';
 import MyCV from './Aladire_Soliu_Frontend_Intern_CV.pdf';
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate =useNavigate();
+
+  const handleHireMeClick = () => {
+    navigate('/Contact');
+  }
+
   return (
     <div id="home" className="home">
       <div className="home-content">
@@ -20,8 +27,12 @@ const Home = () => {
             Want to know more about me?
           </p>
           <div className="home-buttons">
-            <a href="/Contact" className="btn hire-btn animated-bottom">Hire Me</a>
             
+            <button className="btn resume-btn animated-bottom" onClick={handleHireMeClick} >
+              Hire Me
+            </button>
+    
+    
             <a href={MyCV} download="Aladire_Soliu_Frontend_Intern_CV.pdf" className="btn resume-btn animated-bottom">
               Download Resume
             </a>
