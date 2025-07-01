@@ -1,37 +1,48 @@
 /* SKILLS SECTION STYLING */
 
-.title {
-  margin: 1.67rem; 
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  font-weight: bold;
+.skill-group {
+  margin-bottom: 1rem;
+}
+
+.skill-category {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 2rem 1.5rem 1rem;
   color: var(--sub-text-color);
+  text-transform: uppercase;
+}
+
+.progress-bar-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .progress-bar {
-  margin: 3.33rem; 
+  margin: 0 1.5rem 1.5rem;
 }
 
-.progress-wrapper {
-  position: relative;
-  margin-top: 0.5rem;
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--sub-text-color);
+  margin-bottom: 0.5rem;
 }
 
 .progress-label {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 1rem;
   font-weight: bold;
-  color: white;
+  color:var(--sub-text-color);
 }
 
 /* Fade-in animation */
-.animated-fadeInUp{
-   animation: fadeInUp 1s ease-out forwards;
-  opacity: 0; 
+.animated-fadeInUp {
+  animation: fadeInUp 1s ease-out forwards;
+  opacity: 0;
 }
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -40,5 +51,28 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .skill-category {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .progress-bar {
+    margin: 0 1rem 1.5rem;
+  }
+
+  .progress-info {
+    font-size: 0.95rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .progress-label {
+    font-size: 0.9rem;
   }
 }
