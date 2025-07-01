@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.34ef327d.css",
-    "main.js": "/My-Portfolio/static/js/main.95598e51.js",
+    "main.css": "/My-Portfolio/static/css/main.67d242af.css",
+    "main.js": "/My-Portfolio/static/js/main.263be04e.js",
     "static/media/Sir-Herlerdhyre.png": "/My-Portfolio/static/media/Sir-Herlerdhyre.597869cba5bfc3a358d0.png",
     "static/media/E-commerce Website.png": "/My-Portfolio/static/media/E-commerce Website.a0b7eb8d64d438a07444.png",
     "static/media/Aladire_Soliu_Frontend_Intern_CV.pdf": "/My-Portfolio/static/media/Aladire_Soliu_Frontend_Intern_CV.5ac7f5db02a082fecece.pdf",
     "static/media/Blog Website.png": "/My-Portfolio/static/media/Blog Website.3f43bd2c3833cbcda72e.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.34ef327d.css.map": "/My-Portfolio/static/css/main.34ef327d.css.map",
-    "main.95598e51.js.map": "/My-Portfolio/static/js/main.95598e51.js.map"
+    "main.67d242af.css.map": "/My-Portfolio/static/css/main.67d242af.css.map",
+    "main.263be04e.js.map": "/My-Portfolio/static/js/main.263be04e.js.map"
   },
   "entrypoints": [
-    "static/css/main.34ef327d.css",
-    "static/js/main.95598e51.js"
+    "static/css/main.67d242af.css",
+    "static/js/main.263be04e.js"
   ]
 }
