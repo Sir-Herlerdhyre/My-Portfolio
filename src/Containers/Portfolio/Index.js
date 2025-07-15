@@ -4,9 +4,11 @@
 import React from "react";
 import { FaProjectDiagram } from "react-icons/fa";
 import PageHeaderContent from "../../Components/PageHeaders/Index";
-import './Styles.css';
+import "./Styles.css";
 import blogAppImage from "./Images/Blog Website.png";
 import ecommerceImage from "./Images/E-commerce Website.png";
+import budgetPlannerImage from "./Images/Budget Planner.png";
+import toDoListImage from "./Images/Todo List.png";
 
 // Project data
 const projects = [
@@ -22,12 +24,27 @@ const projects = [
     image: blogAppImage,
     link: "https://sir-herlerdhyre.github.io/Blog-website/",
   },
+
+  {
+    title: "Budget Planner",
+    type: "Basic",
+    image: budgetPlannerImage,
+    link: "https://sir-herlerdhyre.github.io/mini-budget/",
+  },
+
+  {
+    title: "Todo List",
+    type: "Vite",
+    image: toDoListImage,
+    link: "https://sir-herlerdhyre.github.io/Todo-list/",
+  },
 ];
 
 // Skill types
 const tools = {
   React: "REACT",
   Basic: "HTML, CSS, BOOTSTRAP & JS",
+  Vite: "VITE + REACT",
 };
 
 const Portfolio = () => {
