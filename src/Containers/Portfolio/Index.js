@@ -6,6 +6,7 @@ import blogAppImage from "./Images/Blog Website.png";
 import ecommerceImage from "./Images/E-commerce Website.png";
 import budgetPlannerImage from "./Images/Budget Planner.png";
 import toDoListImage from "./Images/Todo List.png";
+import weatherAppImage from "./Images/Weather Application.png";
 
 // Project data
 const projects = [
@@ -24,7 +25,7 @@ const projects = [
 
   {
     title: "Budget Planner",
-    type: "Basic",
+    type: "JS",
     image: budgetPlannerImage,
     link: "https://sir-herlerdhyre.github.io/mini-budget/",
   },
@@ -35,12 +36,19 @@ const projects = [
     image: toDoListImage,
     link: "https://sir-herlerdhyre.github.io/Todo-list/",
   },
+  {
+    title: "Weather Application",
+    type: "JS",
+    image: weatherAppImage,
+    link: "https://sir-herlerdhyre.github.io/Weather-app/",
+  },
 ];
 
 // Skill types
 const tools = {
   React: "REACT",
   Basic: "HTML, CSS, BOOTSTRAP & JS",
+  JS: "HTML, CSS & JS",
   Vite: "VITE + REACT",
 };
 
