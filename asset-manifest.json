@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.67d242af.css",
-    "main.js": "/My-Portfolio/static/js/main.dd473f81.js",
+    "main.css": "/My-Portfolio/static/css/main.51046226.css",
+    "main.js": "/My-Portfolio/static/js/main.683da9e7.js",
     "static/media/Sir-Herlerdhyre.png": "/My-Portfolio/static/media/Sir-Herlerdhyre.597869cba5bfc3a358d0.png",
     "static/media/E-commerce Website.png": "/My-Portfolio/static/media/E-commerce Website.a0b7eb8d64d438a07444.png",
-    "static/media/Aladire_Soliu_Frontend_Intern_CV.pdf": "/My-Portfolio/static/media/Aladire_Soliu_Frontend_Intern_CV.5ac7f5db02a082fecece.pdf",
+    "static/media/Aladire_Soliu_Frontend_Intern_CV.pdf": "/My-Portfolio/static/media/Aladire_Soliu_Frontend_Intern_CV.099947b542760164e3f0.pdf",
     "static/media/Blog Website.png": "/My-Portfolio/static/media/Blog Website.3f43bd2c3833cbcda72e.png",
     "static/media/Budget Planner.png": "/My-Portfolio/static/media/Budget Planner.b2703f66818a11015a56.png",
     "static/media/Todo List.png": "/My-Portfolio/static/media/Todo List.7c0bb161a533d9f74015.png",
+    "static/media/Tailwind logo.png": "/My-Portfolio/static/media/Tailwind logo.ff4327eaba18d635de68.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.67d242af.css.map": "/My-Portfolio/static/css/main.67d242af.css.map",
-    "main.dd473f81.js.map": "/My-Portfolio/static/js/main.dd473f81.js.map"
+    "main.51046226.css.map": "/My-Portfolio/static/css/main.51046226.css.map",
+    "main.683da9e7.js.map": "/My-Portfolio/static/js/main.683da9e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.67d242af.css",
-    "static/js/main.dd473f81.js"
+    "static/css/main.51046226.css",
+    "static/js/main.683da9e7.js"
   ]
 }
