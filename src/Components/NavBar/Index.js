@@ -1,6 +1,3 @@
-// Navbar Component
-// Displays site navigation and a responsive menu toggle
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -8,11 +5,11 @@ import "./Styles.css";
 
 // Navigation items
 const navLinks = [
-  { label: 'HOME', to: '/' },
-  { label: 'ABOUT', to: '/About' },
-  { label: 'SKILLS', to: '/Skills' },
-  { label: 'PORTFOLIO', to: '/Portfolio' },
-  { label: 'CONTACT', to: '/Contact' },
+  { label: "HOME", to: "/" },
+  { label: "ABOUT", to: "/About" },
+  { label: "SKILLS", to: "/Skills" },
+  { label: "PORTFOLIO", to: "/Portfolio" },
+  { label: "CONTACT", to: "/Contact" },
 ];
 
 const Navbar = () => {
@@ -31,7 +28,6 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-
         {/* Logo */}
         <Link to="/" onClick={closeMobileMenu}>
           <div className="navbar-logo">
@@ -58,7 +54,6 @@ const Navbar = () => {
         <div className="nav-toggle" onClick={handleToggle}>
           {isMenuOpen ? <FaTimes size={30} /> : <FaBars size={30} />}
         </div>
-
       </div>
     </nav>
   );

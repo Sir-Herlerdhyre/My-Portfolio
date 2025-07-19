@@ -1,12 +1,11 @@
-/* ABOUT SECTION STYLES */
-
 .about-summary {
-  margin: 1.67rem 0 2.78rem 0.56rem; 
+  margin: 1.67rem 0 2.78rem 0.56rem;
 }
 
 .about-summary-paragraph {
   color: var(--sub-text-color);
-  margin-left: 1.67rem; 
+  margin-left: 1.67rem;
+  margin-top: 0rem;
   font-size: 1rem;
   line-height: 1.8;
   max-width: 50rem;
@@ -56,7 +55,3 @@
     opacity: 1;
   }
 }
-
-
-
-

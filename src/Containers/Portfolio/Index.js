@@ -1,6 +1,3 @@
-// Component: Portfolio
-// Description: Displays portfolio projects with hover-over animated details.
-
 import React from "react";
 import { FaProjectDiagram } from "react-icons/fa";
 import PageHeaderContent from "../../Components/PageHeaders/Index";

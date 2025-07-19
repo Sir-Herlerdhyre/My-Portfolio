@@ -1,7 +1,3 @@
-/* Navbar Styles (Navbar/Styles.css)
-   This file handles the layout and responsiveness of the navigation bar.
-*/
-
 .navbar {
   background-color: var(--nav-background-color);
   height: 5rem;

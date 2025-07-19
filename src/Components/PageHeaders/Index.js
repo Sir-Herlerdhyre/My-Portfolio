@@ -1,7 +1,4 @@
-// Component: PageHeaderContent
-// Description: Reusable component for rendering section headers with an icon.
-
-import './Styles.css';
+import "./Styles.css";
 
 const PageHeaderContent = (props) => {
   const { headerText, icon } = props;
