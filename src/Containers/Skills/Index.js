@@ -8,7 +8,7 @@ import jsLogo from "./Images/javascript logo.png";
 import reactLogo from "./Images/React Logo.png";
 import bootstrapLogo from "./Images/bootstrap logo.png";
 import nodeLogo from "./Images/nodejs logo.png";
-import tailwindLogo from "./Images/Tailwind logo.png";
+// import tailwindLogo from "./Images/Tailwind logo.png";
 import viteLogo from "./Images/Vite Logo.webp";
 // Skill data with logo paths
 const skillsData = [
@@ -20,7 +20,7 @@ const skillsData = [
       { name: "JavaScript", logo: jsLogo },
       { name: "React", logo: reactLogo },
       { name: "Bootstrap", logo: bootstrapLogo },
-      { name: "Tailwind", logo: tailwindLogo },
+      // { name: "Tailwind", logo: tailwindLogo },
       { name: "Vite", logo: viteLogo },
     ],
   },

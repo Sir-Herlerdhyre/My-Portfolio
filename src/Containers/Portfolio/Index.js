@@ -16,25 +16,17 @@ import picnicParkImage from "./Images/Picnic Park.png";
 // Project data
 const projects = [
   {
+    title: "Movie O'Clock",
+    type: "React",
+    image: movieOclockImage,
+    link: "https://sir-herlerdhyre.github.io/Movie-Oclock/",
+  },
+  {
     title: "E-commerce Website",
     type: "Basic",
     image: ecommerceImage,
     link: "https://sir-herlerdhyre.github.io/E-commerce/",
   },
-  {
-    title: "React Blog App",
-    type: "React",
-    image: blogAppImage,
-    link: "https://sir-herlerdhyre.github.io/Blog-website/",
-  },
-
-  {
-    title: "Budget Planner",
-    type: "JS",
-    image: budgetPlannerImage,
-    link: "https://sir-herlerdhyre.github.io/mini-budget/",
-  },
-
   {
     title: "Todo List",
     type: "Vite",
@@ -42,17 +34,30 @@ const projects = [
     link: "https://sir-herlerdhyre.github.io/Todo-list/",
   },
   {
-    title: "Weather Application",
-    type: "JS",
-    image: weatherAppImage,
-    link: "https://sir-herlerdhyre.github.io/Weather-app/",
-  },
-  {
     title: "Bill Splitter",
     type: "React",
     image: billSplitterImage,
     link: "https://sir-herlerdhyre.github.io/bill-splitter/",
   },
+  {
+    title: "React Blog App",
+    type: "React",
+    image: blogAppImage,
+    link: "https://sir-herlerdhyre.github.io/Blog-website/",
+  },
+  {
+    title: "Budget Planner",
+    type: "JS",
+    image: budgetPlannerImage,
+    link: "https://sir-herlerdhyre.github.io/mini-budget/",
+  },
+  {
+    title: "Weather Application",
+    type: "JS",
+    image: weatherAppImage,
+    link: "https://sir-herlerdhyre.github.io/Weather-app/",
+  },
+
   {
     title: "Cake Hub",
     type: "React",
@@ -65,12 +70,7 @@ const projects = [
     image: currencyConverterImage,
     link: "https://sir-herlerdhyre.github.io/currency-converter/",
   },
-  {
-    title: "Movie O'Clock",
-    type: "React",
-    image: movieOclockImage,
-    link: "https://sir-herlerdhyre.github.io/Movie-Oclock/",
-  },
+
   {
     title: "Picnic Park",
     type: "React",

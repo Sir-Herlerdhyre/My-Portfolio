@@ -11,6 +11,10 @@ const Home = () => {
     navigate("/Contact");
   };
 
+  const handleWorkClick = () => {
+    navigate("/Portfolio");
+  };
+
   return (
     <div id="home" className="home">
       <div className="home-content">
@@ -18,7 +22,7 @@ const Home = () => {
         <div className="home-text animated-left">
           <h3>Hello 👋</h3>
           <h1>
-            I'm <span>Sir Herlerdhyre</span>
+            I'm <span>Soliu Aladire Babatunde</span>
           </h1>
           <p>
             I'm a frontend developer passionate about building clean,
@@ -33,6 +37,12 @@ const Home = () => {
               onClick={handleHireMeClick}
             >
               Hire Me
+            </button>
+            <button
+              className="btn resume-btn animated-bottom"
+              onClick={handleWorkClick}
+            >
+              View My Work
             </button>
 
             <a
