@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.51046226.css",
-    "main.js": "/My-Portfolio/static/js/main.3e8923f9.js",
+    "main.js": "/My-Portfolio/static/js/main.684ac0b7.js",
     "static/media/Sir-Herlerdhyre.png": "/My-Portfolio/static/media/Sir-Herlerdhyre.597869cba5bfc3a358d0.png",
     "static/media/E-commerce Website.png": "/My-Portfolio/static/media/E-commerce Website.a0b7eb8d64d438a07444.png",
-    "static/media/Aladire_Soliu_Frontend_Intern_CV.pdf": "/My-Portfolio/static/media/Aladire_Soliu_Frontend_Intern_CV.099947b542760164e3f0.pdf",
+    "static/media/Aladire_Soliu_Frontend_Intern_CV.pdf": "/My-Portfolio/static/media/Aladire_Soliu_Frontend_Intern_CV.af3a676d8ebdbf7e8525.pdf",
     "static/media/Currency Converter.png": "/My-Portfolio/static/media/Currency Converter.4f7742cbd874d66db980.png",
     "static/media/Cake hub.png": "/My-Portfolio/static/media/Cake hub.ffbbef8fc211e1d73b55.png",
     "static/media/Movie Oclock.png": "/My-Portfolio/static/media/Movie Oclock.58ce59f73c9d4f2bbcae.png",
@@ -17,10 +17,10 @@
     "static/media/Vite Logo.webp": "/My-Portfolio/static/media/Vite Logo.9d5d30a52d848e448162.webp",
     "index.html": "/My-Portfolio/index.html",
     "main.51046226.css.map": "/My-Portfolio/static/css/main.51046226.css.map",
-    "main.3e8923f9.js.map": "/My-Portfolio/static/js/main.3e8923f9.js.map"
+    "main.684ac0b7.js.map": "/My-Portfolio/static/js/main.684ac0b7.js.map"
   },
   "entrypoints": [
     "static/css/main.51046226.css",
-    "static/js/main.3e8923f9.js"
+    "static/js/main.684ac0b7.js"
   ]
 }
