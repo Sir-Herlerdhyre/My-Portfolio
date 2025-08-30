@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.51046226.css",
-    "main.js": "/My-Portfolio/static/js/main.a224031c.js",
+    "main.js": "/My-Portfolio/static/js/main.3e8923f9.js",
     "static/media/Sir-Herlerdhyre.png": "/My-Portfolio/static/media/Sir-Herlerdhyre.597869cba5bfc3a358d0.png",
     "static/media/E-commerce Website.png": "/My-Portfolio/static/media/E-commerce Website.a0b7eb8d64d438a07444.png",
     "static/media/Aladire_Soliu_Frontend_Intern_CV.pdf": "/My-Portfolio/static/media/Aladire_Soliu_Frontend_Intern_CV.099947b542760164e3f0.pdf",
@@ -14,14 +14,13 @@
     "static/media/Budget Planner.png": "/My-Portfolio/static/media/Budget Planner.b2703f66818a11015a56.png",
     "static/media/Todo List.png": "/My-Portfolio/static/media/Todo List.7c0bb161a533d9f74015.png",
     "static/media/Weather Application.png": "/My-Portfolio/static/media/Weather Application.b6e0548d1922f4c7aaa2.png",
-    "static/media/Tailwind logo.png": "/My-Portfolio/static/media/Tailwind logo.ff4327eaba18d635de68.png",
     "static/media/Vite Logo.webp": "/My-Portfolio/static/media/Vite Logo.9d5d30a52d848e448162.webp",
     "index.html": "/My-Portfolio/index.html",
     "main.51046226.css.map": "/My-Portfolio/static/css/main.51046226.css.map",
-    "main.a224031c.js.map": "/My-Portfolio/static/js/main.a224031c.js.map"
+    "main.3e8923f9.js.map": "/My-Portfolio/static/js/main.3e8923f9.js.map"
   },
   "entrypoints": [
     "static/css/main.51046226.css",
-    "static/js/main.a224031c.js"
+    "static/js/main.3e8923f9.js"
   ]
 }
