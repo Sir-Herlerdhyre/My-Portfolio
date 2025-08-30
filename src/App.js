@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Containers/Home/Index";
 import About from "./Containers/About/Index";
 import Skills from "./Containers/Skills/Index";
@@ -8,8 +8,6 @@ import Contact from "./Containers/Contact/Index";
 import Navbar from "./Components/NavBar/Index";
 
 function App() {
-  const location = useLocation();
-
   return (
     <div className="App">
       {/* Main Navigation */}

@@ -7,6 +7,11 @@ import ecommerceImage from "./Images/E-commerce Website.png";
 import budgetPlannerImage from "./Images/Budget Planner.png";
 import toDoListImage from "./Images/Todo List.png";
 import weatherAppImage from "./Images/Weather Application.png";
+import billSplitterImage from "./Images/Bill Splitter.png";
+import cakeHubImage from "./Images/Cake hub.png";
+import currencyConverterImage from "./Images/Currency Converter.png";
+import movieOclockImage from "./Images/Movie Oclock.png";
+import picnicParkImage from "./Images/Picnic Park.png";
 
 // Project data
 const projects = [
@@ -41,6 +46,36 @@ const projects = [
     type: "JS",
     image: weatherAppImage,
     link: "https://sir-herlerdhyre.github.io/Weather-app/",
+  },
+  {
+    title: "Bill Splitter",
+    type: "React",
+    image: billSplitterImage,
+    link: "https://sir-herlerdhyre.github.io/bill-splitter/",
+  },
+  {
+    title: "Cake Hub",
+    type: "React",
+    image: cakeHubImage,
+    link: "https://sir-herlerdhyre.github.io/cake-hub/",
+  },
+  {
+    title: "Currency Converter",
+    type: "React",
+    image: currencyConverterImage,
+    link: "https://sir-herlerdhyre.github.io/currency-converter/",
+  },
+  {
+    title: "Movie O'Clock",
+    type: "React",
+    image: movieOclockImage,
+    link: "https://sir-herlerdhyre.github.io/Movie-Oclock/",
+  },
+  {
+    title: "Picnic Park",
+    type: "React",
+    image: picnicParkImage,
+    link: "https://sir-herlerdhyre.github.io/Picnic-Park/",
   },
 ];
 
