@@ -19,13 +19,13 @@ const projects = [
     title: "Movie O'Clock",
     type: "React",
     image: movieOclockImage,
-    link: "https://sir-herlerdhyre.github.io/Movie-Oclock/",
+    link: "https://sirherlerdhyre-movieoclock.vercel.app/",
   },
   {
     title: "E-commerce Website",
     type: "Basic",
     image: ecommerceImage,
-    link: "https://sir-herlerdhyre.github.io/E-commerce/",
+    link: "https://sirherelerdhyre-ecommerce.netlify.app/",
   },
   {
     title: "Todo List",
@@ -37,7 +37,7 @@ const projects = [
     title: "Bill Splitter",
     type: "React",
     image: billSplitterImage,
-    link: "https://sir-herlerdhyre.github.io/bill-splitter/",
+    link: "https://sirherlerdhyre-billsplitter.vercel.app/",
   },
   {
     title: "React Blog App",
@@ -49,33 +49,33 @@ const projects = [
     title: "Budget Planner",
     type: "JS",
     image: budgetPlannerImage,
-    link: "https://sir-herlerdhyre.github.io/mini-budget/",
+    link: "https://sirherlerdhyre-minibudget-planner.netlify.app/",
   },
   {
     title: "Weather Application",
     type: "JS",
     image: weatherAppImage,
-    link: "https://sir-herlerdhyre.github.io/Weather-app/",
+    link: "https://sirherlerdhyre-weatherapp.netlify.app/",
   },
 
   {
     title: "Cake Hub",
     type: "React",
     image: cakeHubImage,
-    link: "https://sir-herlerdhyre.github.io/cake-hub/",
+    link: "https://sirherlerdhyre-cakehub.vercel.app/",
   },
   {
     title: "Currency Converter",
     type: "React",
     image: currencyConverterImage,
-    link: "https://sir-herlerdhyre.github.io/currency-converter/",
+    link: "https://sirherlerdhyre-currencyconverter.vercel.app/",
   },
 
   {
     title: "Picnic Park",
     type: "React",
     image: picnicParkImage,
-    link: "https://sir-herlerdhyre.github.io/Picnic-Park/",
+    link: "https://sirherlerdhyre-picnicpark.vercel.app/",
   },
 ];
 
