@@ -12,9 +12,16 @@ import cakeHubImage from "./Images/Cake hub.png";
 import currencyConverterImage from "./Images/Currency Converter.png";
 import movieOclockImage from "./Images/Movie Oclock.png";
 import picnicParkImage from "./Images/Picnic Park.png";
+import TourTrackerImage from "./Images/TourTracker.jpg";
 
 // Project data
 const projects = [
+  {
+    title: "TourTracker",
+    type: "Vite",
+    image: TourTrackerImage,
+    link: "https://sirherlerdhyre-tourtracker.vercel.app/",
+  },
   {
     title: "Movie O'Clock",
     type: "React",
@@ -40,6 +47,12 @@ const projects = [
     link: "https://sirherlerdhyre-billsplitter.vercel.app/",
   },
   {
+    title: "Currency Converter",
+    type: "React",
+    image: currencyConverterImage,
+    link: "https://sirherlerdhyre-currencyconverter.vercel.app/",
+  },
+  {
     title: "React Blog App",
     type: "React",
     image: blogAppImage,
@@ -63,12 +76,6 @@ const projects = [
     type: "React",
     image: cakeHubImage,
     link: "https://sirherlerdhyre-cakehub.vercel.app/",
-  },
-  {
-    title: "Currency Converter",
-    type: "React",
-    image: currencyConverterImage,
-    link: "https://sirherlerdhyre-currencyconverter.vercel.app/",
   },
 
   {
