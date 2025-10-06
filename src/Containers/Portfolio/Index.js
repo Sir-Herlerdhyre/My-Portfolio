@@ -12,7 +12,7 @@ import cakeHubImage from "./Images/Cake hub.png";
 import currencyConverterImage from "./Images/Currency Converter.png";
 import movieOclockImage from "./Images/Movie Oclock.png";
 import picnicParkImage from "./Images/Picnic Park.png";
-import TourTrackerImage from "./Images/TourTracker.jpg";
+import TourTrackerImage from "./Images/TourTracker.png";
 
 // Project data
 const projects = [
