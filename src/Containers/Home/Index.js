@@ -1,7 +1,7 @@
 import React from "react";
 import "./Styles.css";
 import Logo from "./Images/Sir-Herlerdhyre.png";
-import MyCV from "./Aladire,Soliu Babatunde Frontend CV.pdf";
+import MyCV from "./Aladire_Soliu Babatunde Frontend CV.pdf";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
@@ -47,7 +47,7 @@ const Home = () => {
 
             <a
               href={MyCV}
-              download="Aladire,Soliu Babatunde Frontend CV.pdf"
+              download="Aladire_Soliu Babatunde Frontend CV.pdf"
               className="btn resume-btn animated-bottom"
             >
               Download Resume
