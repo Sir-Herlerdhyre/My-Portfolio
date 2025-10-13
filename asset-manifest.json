@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.51046226.css",
-    "main.js": "/My-Portfolio/static/js/main.5ec4ef10.js",
+    "main.js": "/My-Portfolio/static/js/main.6ffb84e8.js",
     "static/media/Sir-Herlerdhyre.png": "/My-Portfolio/static/media/Sir-Herlerdhyre.597869cba5bfc3a358d0.png",
     "static/media/E-commerce Website.png": "/My-Portfolio/static/media/E-commerce Website.a0b7eb8d64d438a07444.png",
     "static/media/TourTracker.png": "/My-Portfolio/static/media/TourTracker.be628c55f6d88ab2363f.png",
@@ -18,10 +18,10 @@
     "static/media/Vite Logo.webp": "/My-Portfolio/static/media/Vite Logo.9d5d30a52d848e448162.webp",
     "index.html": "/My-Portfolio/index.html",
     "main.51046226.css.map": "/My-Portfolio/static/css/main.51046226.css.map",
-    "main.5ec4ef10.js.map": "/My-Portfolio/static/js/main.5ec4ef10.js.map"
+    "main.6ffb84e8.js.map": "/My-Portfolio/static/js/main.6ffb84e8.js.map"
   },
   "entrypoints": [
     "static/css/main.51046226.css",
-    "static/js/main.5ec4ef10.js"
+    "static/js/main.6ffb84e8.js"
   ]
 }
